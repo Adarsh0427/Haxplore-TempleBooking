@@ -1,14 +1,12 @@
-
-
-
 "use client";
 
 import React, { useState } from "react"
-import { useRouter } from "next/navigation";
+
+
 
 export default function Navbar() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
-  const router = useRouter()
+
   return (
     <>
       {/*<!-- Component: Navbar with Avatar --> */}
@@ -26,9 +24,9 @@ export default function Navbar() {
               aria-label="WindUI logo"
               aria-current="page"
               className="flex items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
-              onClick={() => router.push("/home")}
+              href="javascript:void(0)"
             >
-            <img src = "/images/companylogo.png" alt="Logo" className=" h-[120px]"/>
+            <img src = "temple-logo.png" alt="Logo" className=" h-[120px]"/>
             
             </a>
             {/*      <!-- Mobile trigger --> */}
@@ -74,7 +72,7 @@ export default function Navbar() {
                   role="menuitem"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4 transition-colors duration-300 hover:text-rose-700 focus:text-rose-900 focus:outline-none focus-visible:outline-none lg:px-8"
-                  onClick={() => router.push("/home")}
+                  href="javascript:void(0)"
                 >
                   <span>About Us</span>
                 </a>
@@ -85,7 +83,7 @@ export default function Navbar() {
                   aria-current="page"
                   aria-haspopup="false"
                   className="flex items-center gap-2 py-4  transition-colors duration-300 hover:text-rose-700 focus:text-rose-900 focus:outline-none focus-visible:outline-none lg:px-8"
-                  onClick={() => router.push("/")}
+                  href="javascript:void(0)"
                 >
                   <span>Temples</span>
                 </a>
@@ -101,6 +99,11 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
+            <div className="ml-auto flex items-center px-6 lg:ml-0 lg:p-0">
+                {/*<!-- start Avatar--> */}
+            
+                {/*<!-- end Avatar--> */}
+            </div>
           </nav>
         </div>
       </header>
