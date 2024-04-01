@@ -102,7 +102,7 @@ const LoginModal = () => {
       text-neutral-500 text-center mt-4 font-light"
       >
         <p>
-          First time using Bookablebiz?
+          First time using DevDwaar?
           <span
             onClick={onToggle}
             className="
