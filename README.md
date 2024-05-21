@@ -1,5 +1,5 @@
 # DevDwaar - Temple Ticket Booking System
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)]([https://drive.google.com/file/d/1AIOApHyK-kgFZX9E576IMxxBRKFrs-ML/view?usp=drive_link](https://drive.google.com/file/d/1AIOApHyK-kgFZX9E576IMxxBRKFrs-ML/view?usp=drive_link))
+# Demo vide Link -> https://drive.google.com/file/d/1AIOApHyK-kgFZX9E576IMxxBRKFrs-ML/view?usp=drive_link
 The Temple Booking System is a web-based application developed using Next.js, React, TypeScript, MongoDB, Prisma, and Tailwind CSS. It allows users to create an account, login, book appointments for temple services, and manage their reservations. The system provides features such as listing upcoming appointments, displaying temple services, and implementing search and filter functionality. The application is also responsive, ensuring a seamless experience across different devices.
 
 ## Features
